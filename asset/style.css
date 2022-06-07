@@ -1,0 +1,200 @@
+* {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+header .logo {
+    padding: 35px;
+    font-size: 21px;
+    background-color: #FD5D5D;
+    color: #FEFBE7;
+}
+
+.logo h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+header nav ul {
+    padding: 15px;
+    background-color: #F9EBC8;
+}
+
+header nav li {
+    display: inline;
+    padding: 5px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #FD5D5D;
+    font-size: 1em;
+    padding: 8px;
+}
+
+nav li a:hover {
+    background-color: #FD5D5D;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main section {
+    flex: 2;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .tentang-kami {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #ff808065;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tentang-kami .text-head {
+    padding: 20px 20px;
+    font-size: 1.5em;
+    color: #FD5D5D;
+}
+
+.tentang-kami img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.tentang-kami p {
+    padding: 15px 15px;
+    text-align: justify;
+    color: #1a1a1a;
+}
+
+section .product {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px #ff808065;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.product .text-head {
+    padding: 20px 20px;
+    font-size: 1.5em;
+    color: #FD5D5D;
+}
+
+.product .img-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-card {
+    background-color: #F9EBC8;
+    margin: 10px;
+    color: #1a1a1a;
+    flex: 1;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-card img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-card h4 {
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
+
+.img-card p {
+    padding: 10px 25px;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+section .contact {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px #ff808065;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 35px;
+}
+
+.contact .text-head {
+    padding: 20px 20px;
+    font-size: 1.5em;
+    color: #FD5D5D;
+}
+
+.contact table {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.contact table td{
+    padding: 15px;
+}
+
+main aside {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px #ff808065;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+aside h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+aside p {
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #FD5D5D;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
